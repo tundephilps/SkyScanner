@@ -64,7 +64,7 @@ const CitySearchMobile = () => {
           </p>
           <input
             placeholder="PickUp Point"
-            className="text-base border-none outline-none"
+            className="text-base border-none outline-none w-[70%]"
             value={inputValueFrom}
             onChange={handleInputChangeFrom}
           />
@@ -102,7 +102,7 @@ const CitySearchMobile = () => {
           </p>
           <input
             placeholder="Choose Destination"
-            className="text-base border-none outline-none"
+            className="text-base border-none outline-none w-[85%]"
             value={inputValueTo}
             onChange={handleInputChangeTo}
           />
@@ -134,7 +134,7 @@ const CitySearchMobile = () => {
 
         {inputValueFrom && inputValueTo && (
           <div
-            className=" z-50  hover:rotate-180 transition-transform duration-300 rounded-full bg-white p-2 absolute border-purple-900 border-2 left-[75%] top-[12%] cursor-pointer"
+            className="  hover:rotate-180 transition-transform duration-300 rounded-full bg-white p-2 absolute border-purple-900 border-2 right-16 top-24 cursor-pointer"
             onClick={handleSwipe}
           >
             <MdSwapVert />
